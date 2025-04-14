@@ -17,13 +17,5 @@ class Aluno {
     public function listarAlunos(){
         return $this ->alunos;
     }
-
-
-
-
-
-
-
-
 }
 ?>
