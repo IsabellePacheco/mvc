@@ -32,4 +32,14 @@ public function listar(){
     exibirAlunos($alunos);
 }
 }
+
+// execução do codigo
+// aqui for da classe é criado um objeto do tipo AlunoController.
+$controler = new alunoController();
+// apos criar o objeto é chamado o metodo listar.
+
+$controler->listar();
+
+
+
 ?>
